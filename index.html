@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Al Ryan | My Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
+  <script type="text/javascript">
+    $(window).scroll(function(){
+      var wScroll = $(window).scrollTop();
+      var imgPos = wScroll / 2 + 'px';
+      $('.heading-bg').css('transform', 'translateY(' + imgPos + ')');
+    });
+  </script>
+  <body>
+    <div class="container">
+      <div class="nav">
+    		<div class="logo">
+    			<h2>Al Ryan</h2>
+    		</div>
+    		<div class="nav-content">
+    			<a href="projects.html">PROJECTS</a>
+    			<div class="dropdown">
+    				<button class="dropbtn" onclick="window.location.href='about.html'">ABOUT ME
+    				</button>
+    				<div class="dropdown-content">
+    				  <a href="about.html">Background</a>
+					  <a href="documents\resume.pdf">Resume</a>
+    				</div>
+    			 </div>
+    			<a href="maintenance.html" class="current">HOMEPAGE</a>
+    		</div>
+      </div>
+      <div class="heading-px">
+        <div class="heading-bg"></div>
+        <div class="heading">
+          <h1><strong>AL RYAN DAYRIT</strong></h1>
+          <h3>Student at CITCS</h3>
+        </div>
+      </div>
+
+      <div class="info">
+  	    <div class="info-text">
+    			<h1>H E L L O !</h1>
+    			<p>I am a student in the University of the Cordilleras currently taking  Bachelor of Science in Computer Science.</p>
+          <div class="line"></div>
+          <h4 class="quote">"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth."</h4>
+          <h3>Bradley Whitford</h3>
+    		</div>
+  	  </div>
+      <div class="proj-heading">
+        <h1>M Y &nbsp; P R O J E C T S</h1>
+        <h3>What have I accomplished</h3>
+      </div>
+      <div class="proj-content">
+        <div class="proj proj1">
+          <div class="cov1">
+            <h2>SCHOOL</h2>
+          </div>
+        </div>
+        <div class="proj proj2">
+          <div class="cov2">
+            <h2>ART</h2>
+          </div>
+        </div>
+        <div class="proj proj3">
+          <div class="cov3">
+            <h2>COMPETITIONS</h2>
+          </div>
+        </div>
+      </div>
+      <div class="footer-heading">
+        <h1>M Y &nbsp; C O N T A C T S</h1>
+        <h3>Where and how can you contact me</h3>
+      </div>
+      <div class="footer">
+        <h1>Al Ryan</h1>
+        <ul>
+          <li>Baguio, Philippines</li>
+          <li>+639108177810</li>
+          <li>alryandayrit@gmail.com</li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>&copy; DAYRIT AL RYAN - 2020 - CITCS <br><a href="https://www.facebook.com/Haldroid">Facebook</a></p>
+      </div>
+    </div>
+  </body>
+</html>
